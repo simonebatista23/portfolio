@@ -199,8 +199,8 @@ main {
 }
 
 @media(max-width:775px) {
-    .menu {
-        height: 530px;
+    .photo {
+        margin-top: 50px;
     }
     .resume .title {
         padding: 0 15px;
