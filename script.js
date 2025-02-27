@@ -39,3 +39,5 @@ showText(el1, text1, () => {
     el2.innerHTML = text2;
     el2.classList.add("slide-in"); // Adiciona a classe para animar
 });
+
+
