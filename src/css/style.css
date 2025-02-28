@@ -273,7 +273,12 @@ section#skills .skills .container .cards .box::after {
 .uil-server:before {
     content: '\ea26';
 }
-
+.uil-github-alt:before {
+    content: '\ec0f';
+}
+.uil-linkedin-alt:before {
+    content: '\ec16';
+}
 [class*=" uil-"]::before {
     font-family: "unicons-line";
     font-style: normal;
@@ -338,6 +343,7 @@ section#skills .skills .container .cards .box::after {
         padding: 0 2rem;
         flex-direction: column;
         gap: 20px;
+        align-items: center;
     }
 
     .resume .icons-photo {
@@ -346,7 +352,7 @@ section#skills .skills .container .cards .box::after {
     }
 
     .menu {
-        height: 100%;
+        height: 80vh;
     }
 
     .about-container {
@@ -388,6 +394,9 @@ section#skills .skills .container .cards .box::after {
         font-size: 20px;
     }
 
+    .resume .icons-photo {
+        display: none;
+    }
 
     #info.slide-in {
         font-size: 14px;
