@@ -122,6 +122,9 @@ section {
     transform: translateX(0);
 }
 
+.resume .icons-photo-hidden {
+    display: none;
+}
 
 .cursor {
     display: inline-block;
@@ -273,12 +276,15 @@ section#skills .skills .container .cards .box::after {
 .uil-server:before {
     content: '\ea26';
 }
+
 .uil-github-alt:before {
     content: '\ec0f';
 }
+
 .uil-linkedin-alt:before {
     content: '\ec16';
 }
+
 [class*=" uil-"]::before {
     font-family: "unicons-line";
     font-style: normal;
@@ -369,9 +375,13 @@ section#skills .skills .container .cards .box::after {
     .photo-about {
         display: none;
     }
+
+    .resume .icons-photo-hidden {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
 }
-
-
 
 
 @media(max-width:525px) {
