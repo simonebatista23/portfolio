@@ -481,7 +481,7 @@ section#skills .skills .container .cards .box::after {
     .about-me .about {
         max-width: 100%;
     }
-    
+
     .resume .icons-photo {
         width: 100%;
         justify-content: center;
@@ -495,8 +495,10 @@ section#skills .skills .container .cards .box::after {
         max-width: 400px;
     }
 
-    #info.slide-in {
-        text-align: center;
+    
+    #info,
+    .resume .contact {
+        font-size: 22px;
     }
 
 }
