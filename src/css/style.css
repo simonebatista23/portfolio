@@ -495,7 +495,10 @@ section#skills .skills .container .cards .box::after {
         max-width: 400px;
     }
 
-    
+    .container-resume {
+        margin-top: 20px;
+    }
+
     #info,
     .resume .contact {
         font-size: 22px;
