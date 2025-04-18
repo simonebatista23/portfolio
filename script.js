@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   
-
+  window.addEventListener('load', function(){
+    document.body.classList.add('mostrar')
+})
 
 // const el1 = document.querySelector("#title-2");
 // const el2 = document.querySelector("#info");
@@ -72,32 +74,3 @@ document.addEventListener("DOMContentLoaded", () => {
 // });
 
 
-
-
-let moon = document.querySelector(".fa-moon");
-let sun = document.querySelector(".fa-sun");
-
-// Verifica se o modo escuro estava ativado antes
-if (localStorage.getItem("darkMode") === "enabled") {
-    document.body.classList.add("dark-mode");
-    moon.style.display = "none";
-    sun.style.display = "block";
-} else {
-    sun.style.display = "none";
-}
-
-// Ativar modo escuro
-moon.addEventListener("click", () => {
-    document.body.classList.add("dark-mode");
-    localStorage.setItem("darkMode", "enabled");
-    moon.style.display = "none";
-    sun.style.display = "block";
-});
-
-// Desativar modo escuro
-sun.addEventListener("click", () => {
-    document.body.classList.remove("dark-mode");
-    localStorage.setItem("darkMode", "disabled");
-    sun.style.display = "none";
-    moon.style.display = "block";
-});
