@@ -27,7 +27,7 @@ header {
     height: 60px;
 }
 
-.menu .lists{
+.menu .lists {
     display: flex !important;
     flex-direction: column !important;
     gap: 10px !important;
@@ -351,14 +351,16 @@ footer {
     border-top: 1px solid #101013;
 }
 
-footer .contact-footer .icons-footer{
+footer .contact-footer .icons-footer {
     display: flex;
     flex-direction: column;
 }
-footer .contact-footer .icons-footer a span{
+
+footer .contact-footer .icons-footer a span {
     color: #fff !important;
 }
-footer p{
+
+footer p {
     margin-top: 10px;
 }
 
@@ -463,9 +465,16 @@ footer p{
         width: 100%;
         justify-content: center;
     }
+
+    .grid-layout #projects {
+        flex-direction: column;
+    }
 }
 
 @media(max-width:525px) {
+    .menu {
+        height: 85vh;
+    }
 
     .resume .dev {
         max-width: 400px;
@@ -479,7 +488,8 @@ footer p{
     .resume .contact {
         font-size: 22px;
     }
-    footer .contact-footer{
+
+    footer .contact-footer {
         font-size: 12px;
     }
 }
